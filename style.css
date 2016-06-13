@@ -1,0 +1,18 @@
+#dynamic_arrange {
+	margin-top: 5em;
+}
+
+#image_file_load {
+	display: block;
+}
+
+td {
+	border: 1px solid black;
+	height: 5em;
+	width: 5em;
+}
+
+table {
+	border: 1px solid black;
+	border-spacing: 0;
+}
