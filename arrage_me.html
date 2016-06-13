@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="arrange.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="UTF-8">
+		<title>Arrange me</title>
+	</head>
+
+	<body>
+		<h1>Arrange Me</h1>
+
+		<form id="table_choise">
+			<fieldset>
+			<legend>Arrange me input</legend>
+			<p>Choose a size for the table and click the button</p>
+			<input type="file" name="Game image" id="image_file"/>
+			<input type="text" id="table_size_input" value="3"/>
+			<input type="button" id="create_table" value="Create Table" onclick="Javascript:createTable()"/>
+			</fieldset>
+		</form>
+
+		<div id="dynamic_arrange">
+			<input type="button" value="Mix" onclick="Javascript:mix_board()">
+		</div>
+
+	</body>	
+</html>
